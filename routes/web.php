@@ -16,3 +16,5 @@ Route::group(['prefix' => 'my-account'], function () {
   Route::get('/edit', 'ClientController@edit')->name('account.edit');
   Route::post('/edit', 'ClientController@postEdit');
 });
+
+Auth::routes();

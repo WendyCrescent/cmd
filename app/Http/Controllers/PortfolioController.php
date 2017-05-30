@@ -8,11 +8,11 @@ class PortfolioController extends Controller
 {
   public function index()
   {
-    return 'Hello, World!';
+    return view('portfolio.index');
   }
 
   public function show($portfolio)
   {
-    return 'Hello, World!';
+    return view('portfolio.item');
   }
 }
