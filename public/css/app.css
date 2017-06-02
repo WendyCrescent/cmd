@@ -3,9 +3,13 @@
    -------------------------------------- */
 #frontPageJumbo{
    background:url('/img/jumbo/header.jpg');
-   height: 200px;
-   margin-bottom: 25px;
+   height: 250px;
+   max-height: 250px;
+   overflow: hidden;
+   margin-bottom: 60px;
    border-bottom: 2px solid black;
+   -webkit-filter: brightness(70%);
+           filter: brightness(70%);
 }
 
 .frontBlogImage{

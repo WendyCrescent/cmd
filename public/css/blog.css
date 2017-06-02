@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0 0 0 0;
+  line-height: 1.9;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #515151;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Raleway", sans-serif;
+  color: #353535;
+}
+
+#content{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+footer{
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar{
+  margin-bottom: 0px !important;
+}
+
+.image-header {
+  width: 100%;
+  max-height: 250px;
+  overflow: hidden;
+  margin-bottom: 60px;
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+}
+
+.image-header__image {
+  width: 100%;
+}
+
+.image-preview {
+  width: 100%;
+  max-height: 100px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+
+.image-preview__image {
+  width: 100%;
+}
+
+.article {
+  margin-bottom: 20px;
+}
+
+.article__header {
+  font-size: 2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.article__subheader {
+  font-size: 1.4em;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.article__body {
+  font-size: 1.1em;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.portfolio__item__title{
+  font-size: 1.3em;
+}
+
+.article__comments {
+  margin-bottom: 40px;
+}
+
+.article__comment {
+  font-size: 1.1em;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.article__body h1, h2, h3{
+  font-family: "Raleway", sans-serif;
+  color: #353535;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.author-profile{
+	margin-bottom: 30px;
+}
+
+.author-profile__image{
+	max-height: 350px;
+	max-width: 250px;
+}
+
+.author-posts{
+	margin-bottom: 30px;
+}
+
+a {
+  color: #47b8e0;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.author {
+  height: 60px;
+  margin-bottom: 60px;
+}
+
+.author__image {
+  width: 60px;
+  border-radius: 100%;
+  float: left;
+}
+
+.author__details {
+  padding-left: calc(60px + 20px);
+}
+
+.tag {
+  display: inline-block;
+  background-color: #e5e5e5;
+  text-decoration: none;
+  padding: 5px 15px;
+  font-size: .9em;
+  font-weight: 400;
+  color: #979797;
+}
+
+.post {
+  margin-top: 26px;
+  margin-bottom: 60px;
+}
+
+.post__header {
+  font-size: 1.4em;
+  font-weight: 800;
+}
+
+.post__author {
+  font-size: .9em;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.post__author a {
+  font-weight: 400;
+}
+
+.post__time {
+  margin-left: 10px;
+}
+
+.post__preview {
+  font-size: 1em;
+  font-weight: 400;
+}

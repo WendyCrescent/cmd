@@ -23,7 +23,7 @@
               <img src="{{ asset('img/' . $item->image) }}" alt="PortfolioItem">
             </a>
             <div class="caption text-center">
-              <h4><a href="{{ route('portfolio.item', $item->slug) }}">{{ $item->title }}</a></h4>
+              <h4 class="portfolio__item__title"><a href="{{ route('portfolio.item', $item->slug) }}">{{ $item->title }}</a></h4>
               <p> {{ $item->short }} </p>
             </div>
           </div>

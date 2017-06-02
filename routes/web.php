@@ -11,6 +11,14 @@ Route::group(['prefix' => 'commissions'], function () {
   Route::post('/{commission}/order', 'CommissionController@order')->name('commission.order');
 });
 
+Route::group(['prefix' => 'blog'], function () {
+  Route::group(['namespace' => 'Blog'], function () {
+    Route::get('/', 'PostsController@index')->name('blog.home');
+    Route::get('/posts/{tag}', 'PostsController@tagged')->name('posts.tagged');
+    Route::get('/post/{post}', 'PostController@show')->name('post.show');
+  });
+});
+
 Route::group(['prefix' => 'my-account'], function () {
   Route::get('/orders', 'ClientController@orders')->name('account.orders');
   Route::get('/edit', 'ClientController@edit')->name('account.edit');

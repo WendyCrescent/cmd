@@ -11,7 +11,7 @@
 
     <div class="media">
       <div class="media-left">
-        <a href="{{ route('about') }}">
+        <a>
           <img class="media-object img-circle" src="{{ asset('img/logos/logo.png') }}" height="150" alt="PictureOfMe">
         </a>
       </div>

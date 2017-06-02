@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddSetfeaturedColumnToPortfolio extends Migration
+class CreateTagsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,12 @@ class AddSetfeaturedColumnToPortfolio extends Migration
      */
     public function up()
     {
-        Schema::table('portfolios', function (Blueprint $table) {
-            $table->boolean('featured')->after('slug')->default(false);
+        Schema::create('tags', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('name');
+            $table->string('slug')->unique();
+            $table->text('description')->nullable();
+            $table->timestamps();
         });
     }
 
@@ -25,8 +29,6 @@ class AddSetfeaturedColumnToPortfolio extends Migration
      */
     public function down()
     {
-        Schema::table('portfolios', function (Blueprint $table) {
-            //
-        });
+        Schema::dropIfExists('tags');
     }
 }

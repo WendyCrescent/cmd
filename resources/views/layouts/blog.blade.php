@@ -25,11 +25,7 @@
       @include('layouts.shared.nav')
     </nav>
 
-    <div class="jumbotron" id="frontPageJumbo">
-        <div class="container" id="JumboHeader">
-          @yield('pre')
-        </div>
-    </div>
+    @yield('header')
 
     @include('layouts.shared.messages')
 
