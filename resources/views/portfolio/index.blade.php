@@ -24,7 +24,6 @@
             </a>
             <div class="caption text-center">
               <h4 class="portfolio__item__title"><a href="{{ route('portfolio.item', $item->slug) }}">{{ $item->title }}</a></h4>
-              <p> {{ $item->short }} </p>
             </div>
           </div>
         </div>
@@ -37,7 +36,7 @@
 
     <hr>
 
-    <div class="row pageElement text-center">
+    <div class="row hidden pageElement text-center">
       <div class="col-lg-12">
         <ul class="pagination">
           <li><a href="#">&laquo;</a></li>

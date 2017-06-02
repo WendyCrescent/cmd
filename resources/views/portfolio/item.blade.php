@@ -22,7 +22,7 @@
     </div>
 
     <div class="col-md-5">
-        {!! $item->description !!}
+        {!! Markdown::convertToHtml(e($item->description)) !!}
         <hr>
         <a href="{{ $item->link }}" class="btn btn-purple btn-block" target="_blank"> View this Project on Github &nbsp; <i class="fa fa-share" aria-hidden="true"></i></a>
     </div>
