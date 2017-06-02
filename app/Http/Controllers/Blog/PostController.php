@@ -10,11 +10,8 @@ class PostController extends Controller
 {
   public function show(Post $post)
   {
-    $comments = $post->nestedComments();
-
     return view('blog.post.post')->with([
       'post' => $post,
-      'comments' => $comments,
     ]);
   }
 }
