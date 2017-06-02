@@ -20,6 +20,7 @@ class CreatePortfoliosTable extends Migration
             $table->text('description');
             $table->string('link');
             $table->string('image');
+            $table->boolean('featured')->default(0);
             $table->softDeletes();
             $table->timestamps();
         });

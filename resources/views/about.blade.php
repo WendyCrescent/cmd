@@ -10,7 +10,7 @@
   </div>
   <div class="col-md-9">
     <div class="col-md-12 pageElement">
-      <h3 class="page-header">Hi, my name is Wendy Crescent</h3>
+      <h3 class="page-header">Lorem ipsum dolor sit amet.</h3>
       <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
       <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
       <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>

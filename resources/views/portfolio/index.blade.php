@@ -15,7 +15,7 @@
     <hr>
 
     <div class="row pageElement">
-      @if(!empty($items))
+      @if($items->count())
       @foreach($items as $item)
         <div class="col-sm-6 col-md-3">
           <div class="thumbnail">
