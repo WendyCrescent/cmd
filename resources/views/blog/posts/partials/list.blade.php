@@ -10,7 +10,7 @@
     </div>
     @if($post->image)
       <div class="image-preview">
-        <img src="{{ asset('img/' . $post->image) }}" alt="" class="image-preview__image">
+        <img src="{{ asset('img/posts/' . $post->image) }}" alt="" class="image-preview__image">
       </div>
     @endif
     <div class="post__preview">
