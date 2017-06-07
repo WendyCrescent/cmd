@@ -8,7 +8,7 @@ class CommissionController extends Controller
 {
   public function index()
   {
-    return 'Hello, World!';
+    return view('commissions.index');
   }
 
   public function show($commission)
