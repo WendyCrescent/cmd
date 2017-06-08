@@ -5,7 +5,7 @@
 @section('content')
 <div class="row pageElement">
   <div class="col-md-12">
-    <h1 class="page-header">Commissions: <small class="text-danger"> Closed</small></h1>
+    <h2 class="page-header">Commissions: <small class="text-danger"> Closed</small></h2>
   </div>
 </div>
 

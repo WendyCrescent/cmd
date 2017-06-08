@@ -5,7 +5,7 @@
 @section('content')
 <div class="row">
   <div class="col-md-7">
-    <h3> Tagged in: {{ $tag->name }}</h3>
+    <h2 class="page-header"> Posts tagged in: {{ $tag->name }}</h2>
     @include('blog.posts.partials.list', [
       'posts' => $posts
     ])

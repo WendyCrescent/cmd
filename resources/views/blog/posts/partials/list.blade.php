@@ -1,4 +1,3 @@
-
 @if($posts->count())
   @foreach($posts as $post)
   <div class="post">

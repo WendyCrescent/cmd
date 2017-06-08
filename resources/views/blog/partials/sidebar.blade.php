@@ -1,5 +1,5 @@
 @if($tags->count())
-<h3> Tags </h3>
+<h2 class="page-header"> Tags </h2>
 
 @foreach($tags as $tag)
   <a href="{{ route('posts.tagged', $tag->slug) }}" class="tag"> {{ $tag->name }} </a>
