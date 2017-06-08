@@ -14,8 +14,8 @@
     <ul class="nav navbar-nav navbar-right">
       <li><a href="{{ route('home') }}">Home</a></li>
       <li><a href="{{ route('about') }}">About</a></li>
-      <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
-      <li><a href="{{ route('writing') }}">Writing</a></li>
+      <li><a href="{{ route('portfolio') }}">Dev Portfolio</a></li>
+      <li><a href="{{ route('writing') }}">Writing Portfolio</a></li>
       <li><a href="{{ route('blog.home') }}">Blog</a></li>
       @if (Auth::guest())
           <li><a href="{{ route('login') }}">Login</a></li>
