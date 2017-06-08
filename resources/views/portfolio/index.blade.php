@@ -20,7 +20,7 @@
         <div class="col-sm-6 col-md-3">
           <div class="thumbnail">
             <a href="{{ route('portfolio.item', $item->slug) }}">
-              <img src="{{ asset('img/' . $item->image) }}" alt="PortfolioItem">
+              <img src="{{ asset('img/portfolio/' . $item->image) }}" alt="PortfolioItem">
             </a>
             <div class="caption text-center">
               <h4 class="portfolio__item__title"><a href="{{ route('portfolio.item', $item->slug) }}">{{ $item->title }}</a></h4>
