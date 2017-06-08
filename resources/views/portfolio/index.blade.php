@@ -8,7 +8,7 @@
   <div class="panel-body">
     <div class="row pageElement">
       <div class="col-md-12">
-        <h2 class=""> Portfolio</h2>
+        <h2 class="page-header">My Development Portfolio</h2>
       </div>
     </div>
 
