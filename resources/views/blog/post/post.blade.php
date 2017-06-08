@@ -1,6 +1,6 @@
 @extends('layouts.blog')
 
-@section('title', 'Post')
+@section('title', $post->title)
 
 @section('header')
   @if($post->image)

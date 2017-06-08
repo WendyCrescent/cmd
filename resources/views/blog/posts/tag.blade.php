@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('title', 'Tag')
+@section('title', $tag->name)
 
 @section('content')
 <div class="row">
