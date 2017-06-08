@@ -16,7 +16,7 @@
         </a>
       </div>
       <div class="media-body">
-        <h2 class="media-heading">Welcome to my Portfolio!</h2>
+        <h2 class="page-header media-heading">Welcome to my Portfolio!</h2>
         <p>I am a graduate web development student, and I have been working in the industry for 3 years now, four years to be exact. I have spent most of my time working on e-learning solutions for a Dutch company.</p>
         <p>I am passionate about learning new things when it comes to web development and Programming. I like to keep up to date with the latest changes and eagerly try to implement them when possible!</p>
         <p>I am a very passionate person when it comes to my hobbies; I mainly enjoy reading and writing.</p>
