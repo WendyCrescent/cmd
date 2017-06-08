@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-    <meta name="author" content="John Doe">
+    <meta name="author" content="Wendy Crescent">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,PHP,JavaScript,Portfolio,Design,Web Design,Hosting,">
 
 
     <title>@yield('title') - {{ config('app.name') }}</title>
