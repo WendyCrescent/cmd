@@ -35,7 +35,7 @@
       <div class="col-md-4 col-sm-6">
           <div class="PortfolioItem">
               <a href="{{ route('portfolio.item', $item->slug) }}">
-                  <img class="img-responsive img-portfolio img-hover" src="{{ asset('img/' . $item->image) }}" alt="">
+                  <img class="img-responsive img-portfolio img-hover" src="{{ asset('img/portfolio/' . $item->image) }}" alt="">
                   <h4 class="ImageCaption text-center"> {{ $item->title }} </h4>
               </a>
           </div>
@@ -59,7 +59,7 @@
       <a href="{{ $feature->link }}" class="btn btn-purple btn-block" target="_blank"> View this Project on Github &nbsp; <i class="fa fa-share" aria-hidden="true"></i></a>
     </div>
     <div class="col-md-6">
-        <img class="img-responsive" src="{{ asset('img/' . $feature->image) }}" alt="{{ $feature->title }} Image">
+        <img class="img-responsive" src="{{ asset('img/portfolio/' . $feature->image) }}" alt="{{ $feature->title }} Image">
     </div>
   </div>
 @endif
