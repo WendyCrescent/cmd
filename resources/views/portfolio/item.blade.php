@@ -15,7 +15,7 @@
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
-                    <img class="img-responsive" src="{{ asset('img/' . $item->image) }}" alt="">
+                    <img class="img-responsive" src="{{ asset('img/portfolio/' . $item->image) }}" alt="">
                 </div>
             </div>
         </div>
