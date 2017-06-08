@@ -16,10 +16,10 @@
         </a>
       </div>
       <div class="media-body">
-        <h2 class="media-heading">Lorem ipsum dolor sit amet.</h2>
-        <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-        <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+        <h2 class="media-heading">Welcome to my Portfolio!</h2>
+        <p>I am a graduate web development student, and I have been working in the industry for 3 years now, four years to be exact. I have spent most of my time working on e-learning solutions for a Dutch company.</p>
+        <p>I am passionate about learning new things when it comes to web development and Programming. I like to keep up to date with the latest changes and eagerly try to implement them when possible!</p>
+        <p>I am a very passionate person when it comes to my hobbies; I mainly enjoy reading and writing.</p>
       </div>
     </div>
 
