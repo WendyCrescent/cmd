@@ -11,14 +11,15 @@
   <div class="col-md-9">
     <div class="col-md-12 pageElement">
       <h2 class="page-header">About Me</h2>
-      <p>I am a graduate web development student, and I have been working in the industry for 3 years now, four years to be exact. I have spent most of my time working on e-learning solutions for a Dutch company.</p>
+      <p>I am a graduate web development student, and I have been working in the industry for over three years now, nearly four years to be exact. I have spent most of my time working on e-learning solutions for a Dutch company named LearnOnline B.V.</p>
       <p>I am passionate about learning new things when it comes to web development and Programming. I like to keep up to date with the latest changes and eagerly try to implement them when possible!</p>
+      <p>I am a very passionate person when it comes to my hobbies; I greatly enjoy reading and writing fantasy literature. I have contributed to an ongoing adult fiction series which is freely available to read online.</p>
     </div>
     <div class="col-md-12 pageElement">
       <h2 class="page-header">Facts About Me</h2>
-      <p>I am a very passionate person when it comes to my hobbies; I mainly enjoy reading and writing, though I am also a very passionate gamer, playing thing like Dungeons and Dragons, as well as hard games like Dark Souls.</p>
-      <p>Other things I enjoy doing include playing the guitar, and writing fiction. As well as being socially active with my close friends group and lastly painting Warhammer 40,000 models.</p>
-      <p>Writing is probably my primary hobby and passion, and I hope to oneday have a book published for everyone to enjoy.</p>
+      <p>I am a very passionate person when it comes to my hobbies; I mainly enjoy reading and writing, though I am also an experienced gamer, engaging in tabletop Role Playing Games like Pathfinder and Dark Heresy, as well as games with difficult to master mechanics such as Dark Souls.</p>
+      <p>Additionally I enjoy playing the guitar, writing fantasy fiction, teaching the fundamentals of programming, as well as being socially active with my close group of friends which for a large part includes getting together and painting Warhammer 40,000 models for the tabletop strategy game.</p>
+      <p>Writing is probably my primary hobby and passion, and I hope to one day have a book published for everyone to enjoy.</p>
     </div>
     <div class="col-md-6 pageElement">
       <h3 class="page-header">Skill Set</h3>
